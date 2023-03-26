@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32922.545
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RepositoryDesignPatternAndUnitOfWork", "RepositoryDesignPatternAndUnitOfWork\RepositoryDesignPatternAndUnitOfWork.csproj", "{2AE08EAC-5555-4373-9C65-B9190EF70180}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovieRepository.Domain", "MovieRepository.Domain\MovieRepository.Domain.csproj", "{FFECB2E3-FD77-4718-8194-B5D4EF5DD6A7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovieRepository.DataAccess", "MovieRepository.DataAccess\MovieRepository.DataAccess.csproj", "{7566B19B-FDF9-4012-890F-80EB22738014}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2AE08EAC-5555-4373-9C65-B9190EF70180}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2AE08EAC-5555-4373-9C65-B9190EF70180}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2AE08EAC-5555-4373-9C65-B9190EF70180}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2AE08EAC-5555-4373-9C65-B9190EF70180}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FFECB2E3-FD77-4718-8194-B5D4EF5DD6A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFECB2E3-FD77-4718-8194-B5D4EF5DD6A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFECB2E3-FD77-4718-8194-B5D4EF5DD6A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFECB2E3-FD77-4718-8194-B5D4EF5DD6A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7566B19B-FDF9-4012-890F-80EB22738014}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7566B19B-FDF9-4012-890F-80EB22738014}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7566B19B-FDF9-4012-890F-80EB22738014}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7566B19B-FDF9-4012-890F-80EB22738014}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EA23D8EB-509F-411A-98B4-8E49CE6860A2}
+	EndGlobalSection
+EndGlobal
